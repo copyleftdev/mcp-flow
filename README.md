@@ -1,5 +1,12 @@
 # MCP-Flow
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go&logoColor=white)](examples/go/)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](examples/python/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Deno-3178C6?logo=deno&logoColor=white)](examples/typescript/)
+[![Protocol](https://img.shields.io/badge/Protocol-v0.1-green)](schema/0.1/)
+[![WebTransport](https://img.shields.io/badge/Transport-WebTransport%2FQUIC-orange)](https://developer.mozilla.org/en-US/docs/Web/API/WebTransport_API)
+
 **WebTransport binding for the Model Context Protocol.**
 
 MCP-Flow eliminates head-of-line blocking in MCP by leveraging QUIC streams and datagrams for parallel, mixed-reliability communication.
