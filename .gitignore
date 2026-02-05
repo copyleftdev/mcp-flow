@@ -1,0 +1,38 @@
+# Build artifacts
+bin/
+*.exe
+*.out
+
+# Certificates (generated locally)
+certs/
+*.pem
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Go
+*.test
+go.sum
+
+# TypeScript/Deno
+node_modules/
+.deno/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Manim build artifacts
+media/
